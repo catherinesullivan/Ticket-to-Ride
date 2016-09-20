@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=name\ location\ boardLocation
+comment0.target=City(java.lang.String,\ Country,\ java.awt.Point)
+comment0.text=\r\n\ Constructor\ for\ city\ object\ that\ initializes\ the\ city\ name,\r\n\ location,\ and\ (x,y)\ coordinate\ on\ the\ graphic\ map\r\n\ \r\n\ @param\ name\ -\ name\ of\ the\ city\r\n\ @param\ location\ -\ location\ of\ the\ city\ (aka\ country)\r\n\ @param\ boardLocation\ -\ (x,y)\ location\ of\ the\ city\ \r\n\ on\ the\ graphic\ map\r\n
+comment1.params=
+comment1.target=java.awt.Point\ getBoardLocation()
+comment1.text=\r\n\ This\ getter\ method\ returns\ the\ city's\ (x,y)\ \r\n\ location\ on\ the\ graphical\ map\r\n\ \r\n\ @return\ boardLocation\ the\ current\ city's\ (x,y)\ location\ \r\n
+comment2.params=
+comment2.target=java.lang.String\ getCityName()
+comment2.text=\r\n\ This\ getter\ method\ returns\ the\ city's\ name\r\n\ \r\n\ @return\ name\ the\ current\ city's\ name\r\n
+comment3.params=
+comment3.target=Country\ getCountry()
+comment3.text=\r\n\ This\ getter\ method\ returns\ the\ city's\ location/country\r\n\ \r\n\ @return\ enum\ type\ of\ country\ that\ the\ city\ is\ in\r\n
+comment4.params=name
+comment4.target=City\ getCity(java.lang.String)
+comment4.text=\r\n\ Returns\ the\ City\ that\ matches\ this\ string\ or\ null\ if\ it\ \r\n\ cannot\ be\ found\r\n\ \r\n\ @param\ name\ name\ of\ the\ city\ you're\ looking\ for\r\n\ @return\ city\ the\ city\ object\ that\ matches\ the\ parameter\r\n
+comment5.params=name
+comment5.target=java.awt.Point\ getPoint(java.lang.String)
+comment5.text=\r\n\ Returns\ the\ center\ point\ for\ a\ city\ matching\ this\ string\ \r\n\ or\ null\ if\ it\ cannot\ be\ found\r\n\ \r\n\ @param\ name\ name\ of\ the\ city\ you're\ looking\ for\r\n\ @return\ point\ the\ (x,y)\ coordinate\ for\ this\ city's\ location\r\n
+comment6.params=p
+comment6.target=java.lang.String\ cityHoveringOver(java.awt.Point)
+comment6.text=\r\n\ Uses\ the\ distance\ formula\ to\ determine\r\n\ if\ the\ point\ that\ is\ given\ in\ as\ a\ parameter\r\n\ is\ within\ 10\ pixels\ of\ the\ center\ of\ one\ of\ the\r\n\ cities\ and\ then\ returns\ the\ city\ that\ its\ close\ to.\r\n\ Returns\ null\ if\ no\ such\ city\ was\ found.\r\n\ \r\n\ @param\ p\ Point\ on\ board\ in\ consideration\r\n\ @return\ String\ name\ of\ city\ hovering\ over\r\n
+numComments=7

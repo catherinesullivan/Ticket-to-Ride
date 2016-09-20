@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=city1\ city2\ points
+comment0.target=Destination(java.lang.String,\ java.lang.String,\ int)
+comment0.text=\r\n\ Constructs\ the\ destination\ card\r\n\ @param\ city1\ the\ first\ city\ of\ the\ destination\ card\r\n\ @param\ city2\ the\ second\ city\ of\ the\ destination\ card\r\n\ @param\ points\ the\ number\ of\ points\ the\ destination\r\n\ card\ is\ worth\r\n
+comment1.params=front
+comment1.target=void\ addImage(java.awt.Image)
+comment1.text=\r\n\ Adds\ the\ image\ to\ the\ card\r\n\ @param\ front\ the\ front\ image\ of\ the\ card\r\n
+comment2.params=
+comment2.target=java.awt.Image\ getImage()
+comment2.text=\r\n\ Returns\ the\ image\r\n\ @return\ the\ front\ image\ of\ the\ card\r\n
+comment3.params=
+comment3.target=java.lang.String\ getCity1()
+comment3.text=\r\n\ Get\ first\ city\ on\ ticket\r\n\ @return\ name\ of\ the\ city\r\n
+comment4.params=
+comment4.target=java.lang.String\ getCity2()
+comment4.text=\r\n\ Get\ first\ city\ on\ ticket\r\n\ @return\ name\ of\ the\ city\r\n
+comment5.params=
+comment5.target=int\ getPoints()
+comment5.text=\r\n\ Returns\ the\ points\ value\ for\ the\ destination\ card\r\n\ @return\ int\r\n
+comment6.params=color
+comment6.target=boolean\ updatePath(java.awt.Color)
+comment6.text=\r\n\ Updates\ if\ the\ player\ completed\ the\ destination\ card\r\n\ this\ is\ done\ when\ a\ player\ buys\ a\ track.\ \r\n\ @param\ color\ -\ player's\ color\ in\ question\r\n\ @return\ returns\ if\ the\ destination\ card\ is\ complete\ \r\n\ or\ not\r\n
+comment7.params=
+comment7.target=boolean\ playerComplete()
+comment7.text=\r\n\ Determines\ if\ a\ player\ completed\ this\ destination\ \r\n\ card\ or\ not\r\n\ @return\ true\ if\ the\ player\ completed\ the\ destination\r\n\ card\ or\ false\ otherwise\r\n
+numComments=8

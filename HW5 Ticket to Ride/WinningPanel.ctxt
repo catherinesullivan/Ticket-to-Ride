@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=name
+comment0.target=WinningPanel(java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ the\ JPanel\r\n\ @param\ name\ the\ variable\ holding\ the\ name\ of\ the\ winning\ player\r\n
+comment1.params=g
+comment1.target=void\ paintComponent(java.awt.Graphics)
+comment1.text=\r\n\ Paints\ the\ JPanel\r\n\ @param\ g\ -\ graphics\ of\ the\ component\r\n
+comment2.params=g
+comment2.target=void\ fireworks(java.awt.Graphics)
+comment2.text=\r\n\ This\ method\ draws\ the\ fireworks\r\n\ @param\ g\ graphics\ component\r\n
+comment3.params=
+comment3.target=void\ updateVectors()
+comment3.text=\r\n\ This\ method\ changes\ the\ value\ of\ the\ x\ and\ y\ coordinates\ of\ the\r\n\ fireworks\ by\ the\r\n\ amount\ stored\ in\ the\ variable\ change.\r\n
+comment4.params=arg0
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.text=\r\n\ This\ method\ repaints\ the\ panel\ and\ call\ the\ updateVectors\r\n\ method\ every\ time\ the\ timer\ "goes\ off".\r\n
+comment5.params=
+comment5.target=void\ main()
+comment5.text=\r\n\ Creates\ the\ frame\r\n
+numComments=6

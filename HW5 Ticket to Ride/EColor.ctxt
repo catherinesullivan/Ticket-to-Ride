@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=color
+comment0.target=int\ getIndex(EColor)
+comment0.text=\r\n\ Gives\ the\ index\ of\ the\ EColor\ in\ the\ fixed\ order\ of\:\r\n\ WHITE,\ BLUE,\ YELLOW,\ BLACK,\ RED,\ GREEN,\ \r\n\ ORANGE,\ PINK,\ LOCOMOTIVE\r\n\ \r\n\ @param\ color\ requested\ color\ to\ find\ index\r\n\ @return\ index\ of\ the\ EColor\r\n
+comment1.params=index
+comment1.target=EColor\ getColor(int)
+comment1.text=\r\n\ Gets\ the\ color\ based\ on\ the\ index\r\n\ \r\n\ @param\ index\ index\ of\ color\ you're\ searching\ for\r\n\ @return\ EColor\ the\ corresponding\ color\r\n
+numComments=2

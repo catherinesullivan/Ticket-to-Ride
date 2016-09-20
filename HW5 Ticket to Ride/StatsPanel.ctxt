@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=g
+comment0.target=void\ paintComponent(java.awt.Graphics)
+comment0.text=\r\n\ PaintComponent\ collects\ all\ statistics\ for\ each\ player\ and\r\n\ organizes\ this\ data\ into\ a\ graphic,\ comprehensive,\ column.\r\n\ \r\n\ @param\ g\ graphics\ of\ the\ component\r\n
+comment1.params=
+comment1.target=void\ display()
+comment1.text=\r\n\ Formally\ display\ the\ JFrame\ for\ the\ stats\ pannel\r\n
+numComments=2
